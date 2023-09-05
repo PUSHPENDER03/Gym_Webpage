@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Quicksand:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.top{
+    background: linear-gradient(45deg,#0a0a0a, #3a4452);
+    width: 100vw;
+    height: 30vh;
+}
+
+.head{
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+}
+
+.h_left{
+    display: flex;
+    color: white;
+    margin-left: 1vh;
+    width: 37vw;
+    height: 6vh;
+}
+
+.p_img{
+    height: 3vh;
+    width: 3vh;
+    padding-top: 1vh;
+}
+
+.c_img{
+    height: 3vh;
+    width: 3vh;
+    padding-top: 1vh;
+}
+
+.p_p,.t_p{
+    padding-top: 1vh;
+    margin-left: 2vh;
+    margin-right: 5vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.h_right{
+    height: 6vh;
+    width: 60vw;
+    margin-top: 1vh;
+}
+
+.social{
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.s_i{
+    height: 4vh;
+    width: 4vh;
+}
+
+#link{
+    border-radius: 50%;
+}
+
+.ruler{
+    padding: 0 2vh;
+}
+
+.bottom_t{
+    display: flex;
+    justify-content: center;
+}
+
+#g_g{
+    border-radius: 50%;
+    margin-top: 3vh;
+    height: 5vh;
+    width: 5vh;
+}
+
+.title{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    justify-content: center;
+    display: flex;
+}
+
+#puf{
+    font-size: 5vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    list-style: none;
+    display: inline-block;
+    margin: 0 1vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+.mid{
+    width: 100vw;
+    height: 70vh;
+    background-image: url('Images/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.motive{
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10vh;
+}
+
+.yellow{
+    margin-left: 3vh;
+    color: orange;
+}
+
+
+
